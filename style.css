@@ -1,8 +1,40 @@
-h1 {
-    font-family: 'Inter', sans-serif;
+body {
+    border: 2px solid red;
+    padding: 0;
+    margin: 0;
+    width: 1280px;
+    height: 720px;
 }
 
-p, 
-footer {
+.hero {
+    position: absolute;
+    left: 474px;
+}
+
+.header {
+    position: absolute;
+    text-align: center;
+    width: 596px;
+    left: 340px;
+    top: 295px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: 400;
+}
+
+h1 span,
+p span {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+p {
     font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
 }
