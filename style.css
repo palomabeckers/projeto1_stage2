@@ -1,26 +1,22 @@
 body {
     border: 2px solid red;
-    padding: 0;
     margin: 0;
-    width: 1280px;
-    height: 720px;
+    text-align: center;
 }
 
 .hero {
+    width: 596px;
+    margin: 0 auto;
+}
+
+.img {
     position: absolute;
     left: 474px;
 }
 
-.header {
-    position: absolute;
-    text-align: center;
-    width: 596px;
-    left: 340px;
-    top: 295px;
-}
-
 h1 {
     font-family: 'Inter', sans-serif;
+    padding-top: 72px;
     font-size: 49px;
     line-height: 56px;
     font-weight: 400;
