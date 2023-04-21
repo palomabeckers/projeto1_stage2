@@ -38,3 +38,20 @@ p {
     font-size: 14px;
     line-height: 28px;
 }
+
+footer {
+    position: absolute;
+    width: 592px;
+    height: 36px;
+    left: 340px;
+    top: 651px;
+    text-align: center;
+}
+
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #FF9900;
+    text-decoration: none;
+    align-items: center;
+}
